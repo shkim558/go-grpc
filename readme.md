@@ -1,4 +1,4 @@
-GO-GRPC TEST
+GO-GRPC BOILERPLATE
 1. grpc setting
     ```
     brew install protobuf

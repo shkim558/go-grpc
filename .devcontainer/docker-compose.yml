@@ -1,7 +1,7 @@
 version: '3.0'
 
 services:
-  go-grpc-production:
+  go-grpc-development:
     tty: true
     build:
       context: .

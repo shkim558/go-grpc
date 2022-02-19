@@ -10,7 +10,8 @@
     ],
     "settings": {
         "editor.tabSize": 2,
-        "go.useLanguageServer": true
+        "go.useLanguageServer": true,
+        "terminal.integrated.shell.linux": "/bin/bash"
     },
     "postCreateCommand": "go mod download",
 }

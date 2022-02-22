@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-grpc
+  namespace: go-grpc
+spec:
+  selector:
+    app: go-grpc
+  type: ClusterIP
+  ports:
+    - protocol: TCP
+      port: 3041
+      targetPort: 3041

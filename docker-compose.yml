@@ -5,8 +5,6 @@ services:
     tty: true
     build:
       context: .
-    volumes:
-      - ./:/app/go-grpc
     ports:
       - "3041:3041"
     expose:
